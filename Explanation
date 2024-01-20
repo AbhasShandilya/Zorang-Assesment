@@ -1,0 +1,5 @@
+The straight-line distance between two sets of coordinates is calculated using the calculate_distance function.
+From a list of remaining locations, the nearest_neighbor function determines which place is closest to a given location.
+
+Until every address is covered, the generate_routes function iterates through each agent, chooses the closest neighbour for delivery, and changes the routes.
+The result is a list of lists, each sublist representing a delivery agent's path.
